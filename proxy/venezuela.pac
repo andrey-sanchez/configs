@@ -10,6 +10,6 @@ function FindProxyForURL(url, host) {
         return "DIRECT";
 
 // DEFAULT RULE: All other traffic, use below proxies, in fail-over order.
-    return "SOCKS 170.254.172.97:4145";
+    return "SOCKS 200.82.254.126:32970";
 
 }
